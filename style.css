@@ -2,17 +2,24 @@
     margin: 20, 20;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(218, 231, 234);
+    background-color: rgb(250, 252, 252);
 }
 body{
     height: 100vh;
     overflow-x: hidden;
     position: relative;
 }
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
 h2{
     text-align: center;
 }
 h4{
+    text-align: center;
+}
+.content{
     text-align: center;
 }
 .col-md-4{
@@ -36,7 +43,7 @@ h4{
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
     column-gap: 30px;
     row-gap: 20px;
-    background: url(./images/image1.jpg) center no-repeat;
+    background: url(./images/image1.png) center no-repeat;
     height: 100%;
 }
 
