@@ -24,9 +24,12 @@ li{
     text-decoration: none;
     color: black;
 }
+.Intro{
+    
+}
 .log{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin-right: auto;
     margin-left: 30px;
 }
@@ -41,6 +44,9 @@ li{
     text-align: justify;
     padding-left: 250px;
     
+}
+.stud{
+    display: flex;
 }
 .images{
     display: flex;
