@@ -24,6 +24,24 @@ li{
     text-decoration: none;
     color: black;
 }
+.log{
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+.name{
+    color:#02913E;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 250px;
+}
+.text{
+    color: #16246D;
+    text-align: justify;
+    padding-left: 250px;
+    
+}
 .images{
     display: flex;
     justify-content: space-evenly;
